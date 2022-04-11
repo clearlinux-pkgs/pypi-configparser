@@ -4,7 +4,7 @@
 #
 Name     : pypi-configparser
 Version  : 5.2.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/02/a8/5fae273a45a3e4e34ea560c99a4843fe2d9fc6fb691de064dc9c72c46e57/configparser-5.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/02/a8/5fae273a45a3e4e34ea560c99a4843fe2d9fc6fb691de064dc9c72c46e57/configparser-5.2.0.tar.gz
 Summary  : Updated configparser from Python 3.8 for Python 2.6+.
@@ -14,13 +14,13 @@ Requires: pypi-configparser-license = %{version}-%{release}
 Requires: pypi-configparser-python = %{version}-%{release}
 Requires: pypi-configparser-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 .. image:: https://img.shields.io/pypi/v/configparser.svg
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639048383
+export SOURCE_DATE_EPOCH=1649693978
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
