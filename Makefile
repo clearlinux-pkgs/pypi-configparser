@@ -1,5 +1,5 @@
 PKG_NAME := pypi-configparser
-URL = https://files.pythonhosted.org/packages/02/a8/5fae273a45a3e4e34ea560c99a4843fe2d9fc6fb691de064dc9c72c46e57/configparser-5.2.0.tar.gz
+URL = https://files.pythonhosted.org/packages/4b/c0/3a47084aca7a940ed1334f89ed2e67bcb42168c4f40c486e267fe71e7aa0/configparser-5.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
