@@ -7,7 +7,7 @@
 #
 Name     : pypi-configparser
 Version  : 7.1.0
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/a5/2e/a8d83652990ecb5df54680baa0c53d182051d9e164a25baa0582363841d1/configparser-7.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a5/2e/a8d83652990ecb5df54680baa0c53d182051d9e164a25baa0582363841d1/configparser-7.1.0.tar.gz
 Summary  : Updated configparser from stdlib for earlier Pythons.
